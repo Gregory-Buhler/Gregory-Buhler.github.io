@@ -1,5 +1,6 @@
-$("nav ul li a[href^='#']").on('click', function(e) {
-    e.preventDefault();
+$("nav ul li").on('click', function(e) {
+    alert("Click");
+    /*e.preventDefault();
     // animate the scroll
     y = $(this.hash).offset().top - 50;
     if ((y - window.pageYOffset) > 0) {
@@ -10,5 +11,5 @@ $("nav ul li a[href^='#']").on('click', function(e) {
 
     $('html, body').animate({
         scrollTop: y
-    }, time);
+    }, time);*/
 });
